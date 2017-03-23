@@ -1,0 +1,43 @@
+{
+  "name": "itools-candidate-test",
+  "version": "1.0.3",
+  "description": "JS Test Project for candidate",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:archik/itools-candidate-test.git"
+  },
+  "main": "index.js",
+  "keywords": ["test", "example", "candidate","js","es6", "fullstack", "trainee"],
+  "author": {
+    "name": "Artur Basak",
+    "email": "artur.basak@instinctools.ru"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "eslint server && mocha --reporter spec \"server/tests/*.test.js\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "chalk": "1.1.3",
+    "clear": "0.0.1",
+    "clui": "0.3.1",
+    "commander": "2.9.0",
+    "express": "4.14.0",
+    "figlet": "1.2.0",
+    "inquirer": "1.2.1",
+    "minimist": "1.2.0",
+    "preferences": "0.2.1"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.1.0",
+    "supertest": "2.0.0",
+    "eslint": "2.11"
+  }
+}
