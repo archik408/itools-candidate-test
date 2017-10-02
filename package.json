@@ -7,7 +7,15 @@
     "url": "git@bitbucket.org:archik/itools-candidate-test.git"
   },
   "main": "index.js",
-  "keywords": ["test", "example", "candidate","js","es6", "fullstack", "trainee"],
+  "keywords": [
+    "test",
+    "example",
+    "candidate",
+    "js",
+    "es6",
+    "fullstack",
+    "trainee"
+  ],
   "author": {
     "name": "Artur Basak",
     "email": "artur.basak@instinctools.ru"
@@ -23,12 +31,12 @@
   },
   "license": "MIT",
   "dependencies": {
-    "body-parser": "1.15.2",
+    "body-parser": "1.18.2",
     "chalk": "1.1.3",
     "clear": "0.0.1",
     "clui": "0.3.1",
     "commander": "2.9.0",
-    "express": "4.14.0",
+    "express": "4.16.0",
     "figlet": "1.2.0",
     "inquirer": "1.2.1",
     "minimist": "1.2.0",
